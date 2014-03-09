@@ -6,29 +6,35 @@
     <link rel="stylesheet" href="eventswithdart.css">
   </head>
   <body>
-    <h1><img src="img/startupevents1.png" /></h1>
-    
+  <div class="container">
+    <div id="logo" align="center" style="padding-top:10%"><h1><img src="img/startupevents1.png" /></h1>   
     <div>
     <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        #mc_embed_signup{background:#fff; clear:left; font:18px Helvetica,Arial,sans-serif; width:40%; padding:10px}
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-<div id="mc_embed_signup">
-<form action="http://startupevents.us3.list-manage2.com/subscribe/post?u=a4a8368a03a5586e00b7d598a&amp;id=11ef8a659c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <label for="mce-EMAIL">Deja tu correo y preparate!!!</label>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_a4a8368a03a5586e00b7d598a_11ef8a659c" value=""></div>
-        <div class="clear"><input type="submit" value="Estoy dentro!!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</form>
-</div>
- 
+      <div id="mc_embed_signup" align="center">
+      <form action="http://startupevents.us3.list-manage2.com/subscribe/post?u=a4a8368a03a5586e00b7d598a&amp;id=11ef8a659c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <label for="mce-EMAIL">Deja tu correo y preparate!!!</label>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_a4a8368a03a5586e00b7d598a_11ef8a659c" value=""></div>
+              <div class="clear"><input type="submit" value="Estoy dentro!!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+      </div>
 <!--End mc_embed_signup-->
     </div>
+  </div>
     <script type="application/dart" src="eventswithdart.dart"></script>
     <script src="packages/browser/dart.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/jquery.backstretch.js"></script>
+  <script>
+      $.backstretch(["bg.jpeg"]);
+  </script>
   </body>
 </html>
